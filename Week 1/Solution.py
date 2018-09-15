@@ -12,10 +12,6 @@ def func2():
         if (i >= 1):
             if i == 1:
                 bot = bot[:-1]
-            print ( i, bot,"of beer on the wall,",
-                    i, bot,"of beer.\nTake one down and pass it around,",
-                    i-1, bot,"of beer on the wall.\n\n" )
+            print ( i, bot,"of beer on the wall,", i, bot,"of beer.\nTake one down and pass it around,", i-1, bot,"of beer on the wall.\n\n" )
         else:
-            print ( "No more bottles of beer on the wall,",
-                    "no more bottles of beer.\nGo to the store and buy some more,",
-                    "99 bottles of beer on the wall")
+            print ( "No more bottles of beer on the wall, no more bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall")
